@@ -9,7 +9,8 @@ class  Project
 
   def add_backer(backers)
     @backers << backers
-    
+    pry
+    self
   end
 
 
